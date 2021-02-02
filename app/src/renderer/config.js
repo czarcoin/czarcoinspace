@@ -1,6 +1,6 @@
 const BRIDGE_URL = process.env.NODE_ENV === 'development'
   ? 'localhost:6382'
-  : 'api.storj.io'
+  : 'api.czarcoin.org'
 
 export default {
   bridge: BRIDGE_URL,

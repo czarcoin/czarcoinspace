@@ -1,7 +1,7 @@
 {
-  "name": "storjspace",
+  "name": "czarcoinspace",
   "version": "0.0.0",
-  "description": "An electron-vue uploader, downloader, and dashboard for the Storj network",
+  "description": "An electron-vue uploader, downloader, and dashboard for the Czarcoin network",
   "scripts": {
     "build": "node tasks/release.js",
     "build:clean": "cross-env PLATFORM_TARGET=clean node tasks/release.js",

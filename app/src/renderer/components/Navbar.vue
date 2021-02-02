@@ -4,7 +4,7 @@
       <b-nav-toggle target="nav_collapse"></b-nav-toggle>
 
       <b-link class="navbar-brand" to="dashboard">
-        <span><img src="../static/logos/logo-white.svg" height="40px" alt="Storj Labs"></span><span class="logo-text"> Space</span>
+        <span><img src="../static/logos/logo-white.svg" height="40px" alt="Czarcoin Labs"></span><span class="logo-text"> Space</span>
       </b-link>
 
       <b-collapse is-nav id="nav_collapse">

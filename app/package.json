@@ -1,7 +1,8 @@
 {
-  "name": "storjspace",
+  "name": "czarcoinspace",
+  "namespace": "czarcoin",
   "version": "0.0.0",
-  "description": "An electron-vue uploader, downloader, and dashboard for the Storj network",
+  "description": "An electron-vue uploader, downloader, and dashboard for the Czarcoin network",
   "main": "./dist/main.js",
   "dependencies": {
     "babel-runtime": "^6.23.0",

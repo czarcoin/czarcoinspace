@@ -1,10 +1,10 @@
 import * as types from '../mutation-types'
 import config from '../../config'
 import storage from 'electron-json-storage'
-import Storj from 'vendor/storj.es5.js'
+import Czarcoin from 'vendor/czarcoin.es5.js'
 import router from '../../routes'
 
-const storj = new Storj()
+const czarcoin = new Czarcoin()
 const Database = require('nedb')
 const users = new Database({
   filename: config.USERS_DB,
@@ -12,8 +12,8 @@ const users = new Database({
 })
 
 function registerUser () {
-  const key = storj.generateKeyPair().getPrivateKey()
-  const encryptionKey = storj.generateEncryptionKey()
+  const key = czarcoin.generateKeyPair().getPrivateKey()
+  const encryptionKey = czarcoin.generateEncryptionKey()
   storage.set('keypair', {
     privkey: key,
     encryptionKey: encryptionKey

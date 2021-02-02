@@ -1,13 +1,13 @@
-**Notice: Development on this repository is currently on pause during our v3 rearchitecture. Please see [storj/storj](https://github.com/storj/storj) for ongoing v3 development.**
+**Notice: Development on this repository is currently on pause during our v3 rearchitecture. Please see [czarcoin/czarcoin](https://github.com/czarcoin/czarcoin) for ongoing v3 development.**
 
-# storjspace
+# czarcoinspace
 
-> An electron-vue uploader, downloader, and dashboard for the Storj network
+> An electron-vue uploader, downloader, and dashboard for the Czarcoin network
 
 # Stability Warnings
 
 This project is still under development and will not be stable for a few months. 
-Since the Storj network is undergoing a lot of changes in the coming months, this build will be frequently broken.
+Since the Czarcoin network is undergoing a lot of changes in the coming months, this build will be frequently broken.
 
 ## Roadmap
 

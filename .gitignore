@@ -10,5 +10,5 @@ npm-debug.log
 npm-debug.log.*
 thumbs.db
 !.gitkeep
-storjspace/*
+czarcoinspace/*
 users.db

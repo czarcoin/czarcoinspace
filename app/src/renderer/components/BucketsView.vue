@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Storj from 'vendor/storj.es5.js'
+import Czarcoin from 'vendor/czarcoin.es5.js'
 import storage from 'electron-json-storage'
 
 const email = storage.get('user', function (err, user) {
@@ -37,7 +37,7 @@ const encryptionKey = storage.get('keypair', function (err, keypair) {
   return keypair.encryptionKey
 })
 
-const storj = new Storj({
+const czarcoin = new Czarcoin({
   basicAuth: {
     email: email,
     key: key,
@@ -55,7 +55,7 @@ export default {
   },
   computed: {
     buckets: () => {
-      return storj.getBucketList(function (err, buckets) {
+      return czarcoin.getBucketList(function (err, buckets) {
         if (err) console.log(`Error getting buckets: ${err}`)
         return buckets
       })

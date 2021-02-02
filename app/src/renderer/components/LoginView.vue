@@ -2,7 +2,7 @@
   <div>
     <div class="login">
       <div class="header">
-        <h1>Login to Storj</h1>
+        <h1>Login to Czarcoin</h1>
       </div>
       <form v-model="user">
         <div class="row">
